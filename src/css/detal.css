@@ -1,0 +1,31 @@
+.left {
+  margin-left: 100px;
+  border: 2px solid #f56600;
+  float: left;
+}
+.left > img {
+  width: 560px;
+}
+.right {
+  float: right;
+  margin-right: 400px;
+}
+.right > p {
+  width: 300px;
+  color: #b0b0b0;
+}
+.right .price {
+  color: #f56600;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #e0e0e0;
+}
+.right .toShopCar {
+  width: 300px;
+  height: 55px;
+  margin-top: 30px;
+  background: #f56600;
+  text-align: center;
+  color: white;
+  line-height: 55px;
+  cursor: pointer;
+}

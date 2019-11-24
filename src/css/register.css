@@ -1,0 +1,57 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.container {
+  margin: 26px 0;
+}
+.container .media-object {
+  background: #f56600;
+}
+.container .media-body > p {
+  font-size: 10px;
+  color: #666666;
+}
+.bg {
+  width: 1536px;
+}
+#wap {
+  position: absolute;
+  right: 70px;
+  top: 160px;
+}
+#wap .main {
+  width: 410px;
+  height: 340px;
+  background: white;
+  margin: 0 auto;
+  padding: 20px 34px 0;
+}
+#wap .main > p:nth-of-type(1) {
+  color: #333333;
+  font-size: 26px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+#wap .main > .bottom p {
+  text-align: left;
+}
+#wap .main > .bottom input {
+  width: 333px;
+  height: 44px;
+  outline: none;
+  border: 1px solid #e8e8e8;
+  margin-right: 5px;
+}
+#wap .main > .dl {
+  text-align: center;
+  width: 333px;
+  height: 44px;
+  line-height: 44px;
+  color: white;
+  background: #f56600;
+  border: none;
+  margin: 40px 0 0 0;
+  outline: none;
+  cursor: pointer;
+}

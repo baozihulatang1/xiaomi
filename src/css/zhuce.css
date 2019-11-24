@@ -1,0 +1,47 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+#wap {
+  background: #f9f9f9;
+  overflow: hidden;
+}
+#wap .main {
+  text-align: center;
+  width: 792px;
+  height: 550px;
+  background: white;
+  margin: 150px auto;
+  padding: 0 34px;
+}
+#wap .main > section {
+  width: 49px;
+  height: 49px;
+  background: #f56600;
+  margin: 0 auto;
+}
+#wap .main > p:nth-of-type(1) {
+  color: #333333;
+  font-size: 26px;
+  margin: 50px 0 30px;
+}
+#wap .main > .bottom p {
+  text-align: left;
+  margin-left: 225px;
+}
+#wap .main > .bottom input {
+  width: 333px;
+  height: 44px;
+  outline: none;
+  border: 1px solid #e8e8e8;
+  margin-right: 5px;
+}
+#wap .main > .zc {
+  width: 333px;
+  height: 44px;
+  line-height: 44px;
+  color: white;
+  background: #f56600;
+  margin: 40px 0 0 226px;
+  cursor: pointer;
+}
